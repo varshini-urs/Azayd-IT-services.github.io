@@ -1,0 +1,36 @@
+.btn-dark-blue {
+    background-color: #003366; /* Dark blue color */
+    color: white;
+}
+.btn-dark-blue:hover {
+    background-color: #9dbcdb; /* Darker blue on hover */
+    color: white;
+}
+.highlight {
+    color: #003366; /* Highlight color */
+}
+.centralize {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.header-content {
+    padding: 50px 0;
+}
+.service-type-gap {
+    margin-top: 50px;
+}
+hr {
+    border-top: 2px solid #003366;
+}
+.apply-image {
+    text-align: center; /* Center align the image horizontally */
+    height: 100%; /* Set the height of the image container */
+}
+
+.apply-image img {
+    max-width: 100%; /* Ensure image scales within its container */
+    max-height: 100%; /* Ensure image height doesn't exceed its container */
+    vertical-align: middle; /* Align image vertically within its container */
+}
